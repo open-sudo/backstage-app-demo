@@ -15,12 +15,12 @@ https://backstage.io/docs/deployment/docker#multi-stage-build
 To build the docker image run:
 
 ```shell
-docker build . -t quay.io/raffaelespazzoli/backstage:latest --no-cache
-docker login quay.io/raffaelespazzoli/backstage
-docker push quay.io/raffaelespazzoli/backstage:latest
+docker build . -t quay.io/open-sudo/backstage:latest --no-cache
+docker login quay.io/open-sudo/backstage
+docker push quay.io/open-sudo/backstage:latest
 ```
 
-note the images is already pushed to `ghcr.io/raf-backstage-demo/backstage-app-demo:main`
+note the images is already pushed to `ghcr.io/open-sudo/backstage-app-demo:main`
 
 
 changes to be applied
